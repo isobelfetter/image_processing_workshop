@@ -19,7 +19,7 @@ conda activate ipenv
 Optional: set ipykernel in jupyter:
 ```
 pip install --user ipykernel
-Python -m ipykernel install --user --name=ipenv
+python -m ipykernel install --user --name=ipenv
 ```
 Install packages:
 ```
