@@ -23,7 +23,7 @@ Python -m ipykernel install --user --name=ipenv
 ```
 Install packages:
 ```
-conda install jupyter numpy pandas scipy matplotlib tifffile
+conda install -c conda-forge jupyter numpy pandas scipy matplotlib tifffile pillow
 ```
 
 Alternative: To install from environment.yml file (environment will be called ipenv):
